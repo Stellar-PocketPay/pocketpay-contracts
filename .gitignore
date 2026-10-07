@@ -3,7 +3,6 @@ target/
 
 # IDE files
 .idea/
-.vscode/
 *.swp
 *.swo
 *~
@@ -13,8 +12,6 @@ target/
 Thumbs.db
 
 # Environment files
-.env
-.env.local
 
 # Soroban CLI artifacts
 .soroban/
@@ -22,3 +19,5 @@ Thumbs.db
 # Test artifacts
 *.profraw
 **/test_snapshots/
+config.bat
+node_modules
